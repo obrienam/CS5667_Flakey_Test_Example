@@ -14,5 +14,6 @@ class Testing(unittest.TestCase):
             if(o==4):
                 break
         self.assertEqual(c,o)
+        
 if __name__ == '__main__':
     unittest.main()
